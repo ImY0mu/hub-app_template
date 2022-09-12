@@ -1,0 +1,13 @@
+{
+  "notes": [
+    {
+      "title": "Initial release",
+      "version": "0.0.1",
+      "date": "2022-09-1T12:00:18.175Z",
+      "changes": [
+        { "title": "General", "items": ["Let's go and smash!"] },
+        { "title": "Bugs", "items": ["Failed to fix being lazy!"] }
+      ]
+    }
+  ]
+}
