@@ -20,13 +20,15 @@ Hello, this repository solely exists in case there would be multiple peeps wanti
 
 Follow these steps to get started with this template:
 
+
 1. Click the **[Use this template](https://github.com/ImY0mu/hub-app_template/generate)** button (you must be logged in) or just clone this repo.
-2. Run `npm install`
-3. Run `npm run watch`
-4. Open App Hub
-5. Open Console at App Hub via CTRL + SHIFT + I
-6. Run `window.extension_api.launch_app('hub-app_template')` (the name of the package in package.json [has to be same as folder name])
-7. Press CTRL + R to reload the window with every new change
+2. The application's folder has to be at the `AppData\Roaming\SimpleMMO Hub v2\extensions`
+3. Run `npm install`
+4. Run `npm run watch`
+5. Open App Hub
+6. Open Console at App Hub via CTRL + SHIFT + I
+7. Run `window.extension_api.launch_app('hub-app_template')` (the name of the package in package.json [has to be same as folder name])
+8. Press CTRL + R to reload the window with every new change
 
 That's all you need.
 
