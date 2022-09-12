@@ -12,13 +12,17 @@ Hello, this repository solely exists in case there would be multiple peeps wanti
 
 - VueJS
 - WindiCSS
+
+## Technologies Required
+
+- NPM (v7)
   
 ## Get started
 
 Follow these steps to get started with this template:
 
 1. Click the **[Use this template](https://github.com/ImY0mu/hub-app_template/generate)** button (you must be logged in) or just clone this repo.
-2. If you want use another package manager don't forget edit [`.github/workflows`](/.github/workflows) -- it uses `npm` by default.
+2. The application's folder has to be at the `AppData\Roaming\SimpleMMO Hub v2\extensions`
 3. Run `npm install`
 4. Run `npm run watch`
 5. Open App Hub
@@ -27,5 +31,3 @@ Follow these steps to get started with this template:
 8. Press CTRL + R to reload the window with every new change
 
 That's all you need.
-
-**Note**: This template uses npm v7 feature — [**Installing Peer Dependencies Automatically**](https://github.com/npm/rfcs/blob/latest/implemented/0025-install-peer-deps.md). If you are using a different package manager, you may need to install some peerDependencies manually.
