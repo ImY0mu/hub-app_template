@@ -1,5 +1,11 @@
 # SimpleMMO App Hub extension app template
 
+## Read first
+
+1. Template is not final
+2. App Hub has not been updated yet to support these (version 0.0.45 required)
+3. Might still receive changes
+
 Hello, this repository solely exists in case there would be multiple peeps wanting to have their own SimpleMMO app run inside the [App Hub](https://github.com/ImY0mu/SimpleMMO-Hub-Dist).
 
 ## Technologies used
