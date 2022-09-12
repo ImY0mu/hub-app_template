@@ -12,6 +12,8 @@ Hello, this repository solely exists in case there would be multiple peeps wanti
 
 - VueJS
 - WindiCSS
+
+## Technologies Required
 - NPM (v7)
   
 ## Get started
