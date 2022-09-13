@@ -49,6 +49,9 @@ export default {
     window.extension_listener.receive("user_patreon_data", function (user_patreon_data) {
 			console.log(user_patreon_data);
 		});
+    window.extension_listener.receive("public_token", function (public_token) {
+			console.log(public_token);
+		});
   },
   mounted(){
 
