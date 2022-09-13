@@ -18,9 +18,6 @@
 </template>
 
 <script>
-import { name, version} from "../package.json";
-
-
 import AppBar from "./components/AppBar.vue";
 import TopBar from "./components/TopBar.vue";
 
@@ -34,27 +31,34 @@ export default {
   },
   data() {
     return {
-      player: window.extension_api.user('app_template'),
-      extension: {
-        name: name,
-        version: version
-      }
+      player: null,
     };
   },
   methods: {
 
   },
   beforeMount() {
-    window.extension_listener.receive("user", function (arg) {
-			console.log(arg);
+    var self = this;
+    window.extension_listener.receive("user", function (player) {
+			self.player = player;
+      console.log(self.player);
 		});
-    window.extension_listener.receive("user_patreon_data", function (arg) {
-			console.log(arg);
+    window.extension_listener.receive("public_token", function (token) {
+			console.log(token);
+		});
+    window.extension_listener.receive("user_patreon_data", function (user_patreon_data) {
+			console.log(user_patreon_data);
 		});
   },
   mounted(){
-    console.log(this.extension)
-  }
+
+
+    // How to log messages so they appear in App Hubs logs files
+    log('info', `Launched ${extension.title} v${extension.version} created by ${extension.author}`);
+    log('error', `Hello World!`);
+
+    window.extension_api.get_user();
+  },
 };
 </script>
 

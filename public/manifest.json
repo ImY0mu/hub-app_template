@@ -1,0 +1,14 @@
+{
+  "name":"hub-app_template",
+  "title":"App Template",
+  "author":"Y0mu",
+  "in_development":true,
+  "description":"Template of application for SimpleMMO App Hub.",
+  "version":"0.0.1",
+  "preview_image_url":"",
+  "github":{
+     "owner":"ImY0mu",
+     "repository":"hub-app_template",
+     "link_to_repository":"https://github.com/ImY0mu/hub-app_template"
+  }
+}

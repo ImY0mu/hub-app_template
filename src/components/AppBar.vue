@@ -39,13 +39,13 @@
     },
     methods: {
       close_window(){
-        window.extension_api.close_window(this.extension.name)
+        window.extension_api.close_window()
       },
       minimize_window(){
-        window.extension_api.minimize_window(this.extension.name)
+        window.extension_api.minimize_window()
       },
       maximize_window(){
-        window.extension_api.maximize_window(this.extension.name)
+        window.extension_api.maximize_window()
       }
     },
   }
