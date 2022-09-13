@@ -1,6 +1,26 @@
 # SimpleMMO App Hub extension app template
 
-This repository is there in case you want to create your own SimpleMMO app and run it inside the [App Hub](https://github.com/ImY0mu/SimpleMMO-Hub-Dist).
+VueJS and WindiCSS template to create your own SimpleMMO App and run it inside the [App Hub](https://github.com/ImY0mu/SimpleMMO-Hub-Dist).
+You can create your own App even without this template, but it will require some additional work like setup your own `manifest.json`, load it and setup the `extension_api` to work corretly.
+
+```js
+import { name, version, author, title } from "../public/manifest.json";
+window.extension = {
+  name: name,
+  title: title,
+  version: version,
+  author: author
+};
+// Set up the application's name so all the functions at extension_api work
+window.extension_api.set_app_name(name);
+/*
+  Create simple logging  - log(type, message)
+  Supported types: info, error
+*/
+window.log = (type, message) =>{
+  window.extension_api.log(type, message);
+};
+```
 
 ## Technologies used
 
