@@ -29,4 +29,44 @@ Follow these steps to get started with this template:
 7. Launch it.
 8. Reload the window by pressing CTRL + R whenever you make any change.
 
+## Manifest
+
+```json
+{
+  "name":"hub-app_template", 
+  "title":"App Template",
+  "author":"Y0mu",
+  "in_development":true,
+  "description":"Template of application for SimpleMMO App Hub.",
+  "version":"0.0.1",
+  "preview_image_url":"",
+  "github":{
+     "owner":"ImY0mu",
+     "repository":"hub-app_template",
+     "link_to_repository":"https://github.com/ImY0mu/hub-app_template"
+  }
+}
+```
+
+**Requires:**
+
+- name:
+  - It has to have the name of the folder
+- title: Title of the extension in the list of extensions
+- author: Name of the author
+- in_development:
+  - true: extension will be loaded from from it's `dist` folder within the selected folder
+  - false: extension will be loaded right from the selected folder
+- version: Version number
+- github:
+  - owner: Name of the github profile
+  - repository: Name of the repository where you make releases
+    - Keep **in_development** to true if the whole code is part of your releases and not just the `dist` folder
+  - link_to_repository: Link to the repository
+
+**Not Required:** (for now)
+
+- description: Description of the extension
+- preview_image: Eventually could be an image of the preview within the hub
+
 That's all you need.
