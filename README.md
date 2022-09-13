@@ -50,8 +50,7 @@ Follow these steps to get started with this template:
 
 **Requires:**
 
-- name:
-  - It has to have the name of the folder
+- name: It has to have the name of the folder
 - title: Title of the extension in the list of extensions
 - author: Name of the author
 - in_development:
