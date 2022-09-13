@@ -48,7 +48,7 @@ Follow these steps to get started with this template:
 }
 ```
 
-**Requires:**
+**Required:**
 
 - name: It has to have the name of the folder
 - title: Title of the extension in the list of extensions
